@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="google-site-verification" content="kMFCL_KFKTPcFAtw0S1-N8m8_rcxhJdwmikWCEKvrDA" />   
+ <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Together,we can go further.">
+    <meta name="author" content="Aditya Gaurav">
+    <meta name="keywords" content="aditya gaurav ,aditya,gaurav,entrepreneur,bangalore,dolphin foundry private limited, it engineer,software enginner,India,Bihar,Nalanda Insitute of technology,DAV public school bokaro,Narayan education ponit,G.D.M.I.S,g d mother international school,muzaffarpur">  
+<!--    <link rel="icon" href="../../favicon.ico">-->
+
+    <title>Aditya Gaurav</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/aditya.css">
+
+
+    <!-- Custom styles for this template -->
+</head>
+
+<body>
+<div id ="wrapper">
+    <section id="imageTextWrapper">
+<!--        <picture>-->
+<!--            <source srcset="assets/images/banner@1x.jpg" media="(min-width: 100px)">-->
+<!--            <source srcset="assets/images/banner@2x.jpg" media="(min-width: 1200px)">-->
+<!--            <source srcset="assets/images/banner@2x.jpg" media="(min-width: 1900px)">-->
+<!--            <img class="img-responsive Caption" src="assets/images/banner@3x.jpg">-->
+<!--        </picture>-->
+        <div id="divCaption">
+            <h1  class="caption">Together, We can go farther.</h1>
+            <button type="button" class="btn btn-default meetButton"  onclick="document.getElementById('id01').style.display='block'">
+                <span class="glyphicon glyphicon-hand-right" style="font-size: 16px"></span> Let's Meet
+            </button>
+
+        </div>
+    </section>
+
+
+</div>
+<div id="id01" class="modal">
+
+    <form class="modal-content animate">
+        <div class="imgcontainer">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+        </div>
+
+        <div class="container" style="max-width: 720px">
+            <label for="name"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="name" required>
+            <label for="email"><b>Email Id</b></label>
+            <input type="email" placeholder="Enter Email Id" name="email" required>
+            <label for="comment">Comment:</label>
+            <textarea class="form-control" placeholder="Whats Up" rows="5" id="comment"></textarea>
+            <br>
+            <button type="submit" class="btn btn-default" style="text-align: center">Submit</button>
+        </div>
+
+
+    </form>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="assets/js/aditya.js"></script>
+</body>
+</html>
