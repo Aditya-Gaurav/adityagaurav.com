@@ -1,25 +1,40 @@
+$(document).ready(function() {
+    setTimeout(function() {
+        $('#loader').hide();
+        $('.wrapper').show();
+  
+        
+      }, 1000);
+    $('#fullpage').fullpage({
+        resize: false,
+        animateAnchor:false,
+        scrollOverflow: true,
+        autoScrolling:true,
+        responsive: 768,
+        fitSection: false,
+        //menu: '#menu',
+        navigation:true,
+        continuousVertical:true,
+        paddingTop: '20px',
+        navigation: true,
+        easingcss3: 'ease-in-out',
 
-// Get the modal
-var modal = document.getElementById('id01');
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
 
 
-$(document).ready(function () {
-    $(window).load('on', function () {
-        // executes when complete page is fully loaded, including all frames, objects and images
-        setTimeout(function () {
-            $('#wrapper').fadeIn('slow');
-            $('#imageTextWrapper').height($(this).height());
-        }, 1000);
-    });
 
-    $(window).resize('on', function () {
-        $('#imageTextWrapper').height($(this).height());
+        afterRender: function() {
+            var instance =new Typed('#typed2', {
+                strings: ['Jid achi h to jarur karo.', 'Either this way or no way.', 'The only way to overcome your fear, deal with it.','Acche din .... On the way.','Engineering is not just a course or degree, it’s a Religion.'],
+                typeSpeed: 60,
+                backDelay: 500,
+                startDelay: 10,
+                backSpeed: 40,
+                loop: true,
+            });
+        }
     });
 })
+
+
+
+

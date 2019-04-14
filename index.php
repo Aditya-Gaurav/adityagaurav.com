@@ -1,67 +1,119 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta name="google-site-verification" content="kMFCL_KFKTPcFAtw0S1-N8m8_rcxhJdwmikWCEKvrDA" />   
- <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Together,we can go further.">
-    <meta name="author" content="Aditya Gaurav">
-    <meta name="keywords" content="aditya gaurav ,aditya,gaurav,entrepreneur,bangalore,dolphin foundry private limited, it engineer,software enginner,India,Bihar,Nalanda Insitute of technology,DAV public school bokaro,Narayan education ponit,G.D.M.I.S,g d mother international school,muzaffarpur">  
-<!--    <link rel="icon" href="../../favicon.ico">-->
-
-    <title>Aditya Gaurav</title>
-
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/aditya.css">
-
-
-    <!-- Custom styles for this template -->
-</head>
-
-<body>
-<div id ="wrapper">
-    <section id="imageTextWrapper">
-<!--        <picture>-->
-<!--            <source srcset="assets/images/banner@1x.jpg" media="(min-width: 100px)">-->
-<!--            <source srcset="assets/images/banner@2x.jpg" media="(min-width: 1200px)">-->
-<!--            <source srcset="assets/images/banner@2x.jpg" media="(min-width: 1900px)">-->
-<!--            <img class="img-responsive Caption" src="assets/images/banner@3x.jpg">-->
-<!--        </picture>-->
-        <div id="divCaption">
-            <h1  class="caption">Together, We can go farther.</h1>
-            <button type="button" class="btn btn-default meetButton"  onclick="document.getElementById('id01').style.display='block'">
-                <span class="glyphicon glyphicon-hand-right" style="font-size: 16px"></span> Let's Meet
-            </button>
-
+<?php
+  require 'header.php';
+  ?>
+  <div id="loader">
+    <img class="loader-img" height="75" width="58" src="./assets/images/loader.svg" alt="aditya gaurav" />
+  </div> 
+  <div class="wrapper">
+    <!-- <div class="sticky-header">
+      <code class="html-open-tag"> < > </code>
+    </div> -->
+    <div id="fullpage"">
+        <div class="wrapper__set-bg">
+          <div class="wrapper__set-margin">
+            <div class="wrapper__set-padding">
+              <div class="bio-section section ">
+                <div class="bio-section__content-wrapper">
+                  <div class="bio-section__profile-img-border">
+                    <div class="bio-section__profile-img"></div>
+                  </div>
+                  <h1 class="bio-section__authur-name">ADITYA GAURAV</h1>
+                  <div class="bio-section__authur-details">
+                    <p class="typed-cursor" id="typed2"></p>
+                  </div>
+                  <span id="typed"></span>
+                  <p class="bio-section__authur-more-details">
+                    I HAVE ALWAYS BEEN FASCINATED BY TECHNOLOGY. AFTER GRADUATING FROM Nalanda Institute of Technology , BBSR (ME) IN 2016,
+                    I TOOK AN UNUSUAL STEP OF STEPPING INTO UNUSUAL WORLD OF PROGRAMMING. 
+                    AND TILL NOW I HAVE LEARNED MANY TECHNOLOGIES OF WEB WORLD BUT NOW I AM THINKING TO TAKE ONE MORE STEPS FORWARD AND BUILD SOMETHING OF MY OWN . I'M AVAILABLE FOR WORK - IF YOU WOULD LIKE TO BUILD SOMETHING TOGETHER, <span style="text-decoration:dashed">GET IN TOUCH.</span>
+                  </p>
+                </div>
+              </div>
+              <div class="skills-section section fp-auto-height-responsive">
+                <div class="skills-section__content-wrapper">
+                  <h1 class="skills-section__heading section-heading">Stacks</h1>
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-sm-4 center">
+                        <p class="skills-section__stack-heading">Front End</p>
+                        <ul class="skills-item-nav">
+                          <li class="skills-item">ANGULAR JS</li>
+                          <li class="skills-item">ANGULAR 4+</li>
+                          <li class="skills-item">Javascript</li>
+                          <li class="skills-item">HTML5</li>
+                          <li class="skills-item">SEMANTIC UI / CLARITY</li>
+                          <li class="skills-item">ANGULAR MATERIAL</li>
+                          <li class="skills-item">PROGRESSIVE WEB APPS</li>
+                          <li class="skills-item">WEB SOCKETS</li>
+                        <ul>
+                      </div>
+                      <div class="col-sm-4 center">
+                        <h3 class="skills-section__stack-heading">BACK-END</h3>
+                        <ul class="skills-item-nav">
+                          <li class="skills-item">PHP</li>
+                          <li class="skills-item">LARAVEL</li>
+                          <li class="skills-item">SLIM</li>
+                          <li class="skills-item">MYSQL+SQLITE</li>
+                          <li class="skills-item">CASSANDRA</li>
+                          <li class="skills-item">REDIS</li>
+                          <li class="skills-item">REST API</li>
+                        <ul>
+                      </div>
+                      <div class="col-sm-4 center">
+                        <h3 class="skills-section__stack-heading">DEV-OPS</h3>
+                        <ul class="skills-item-nav">
+                          <li class="skills-item">GIT / GITHUB</li>
+                          <li class="skills-item">GULP</li>
+                          <li class="skills-item">WEBPACK</li>
+                          <li class="skills-item">APACHE</li>
+                          <li class="skills-item">NGINX SERVER</li>
+                          <li class="skills-item">GOOGLE CLOUD</li>
+                          <li class="skills-item">AMAZON AWS</li>
+                        <ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="project-section section">
+                <div class="project-section__content-wrapper">
+                <h1 class="project-section__heading section-heading">my work</h1> 
+                <div class="project-section__row project-item-wrapper">
+                  <div class="item">
+                    <img class="item-image"  src="https://www.cushy.com/assets/images/cushy-logo@3x.png">
+                    <p class="item-desc">cushy.com</p>
+                  </div>
+                  <div class="item">
+                  <img class="item-image" src="https://www.dolphinentertainment.in/assets/images/ic-dolphin-logo.png">
+                    <p class="item-desc">dolphinentertainment.com</p>
+                  </div>
+                  <div class="item">
+                    <img class="item-image" src="https://dolphinfoundry.com/image/logo.png">
+                    <p class="item-desc">dolphinfoundry.com</p>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
+    
+    </div>
+    <div class="sticky-footer">
+      <a class="contact-me" href="whatsapp://send?text=Hey Aditya&phone=+91 9611419716&abid=+91 9611419716">
+          <i class="fab fa-whatsapp whatsapp-icon"></i>
+      </a>
+      <!-- <div class="closing-tag-wrapper">
+        <code class="html-close-tag"> </> </code>
+      </div> -->
+    </div>
+   
+  </div>  
 
+<script>
+ 
+</script>
 
-</div>
-<div id="id01" class="modal">
-
-    <form class="modal-content animate">
-        <div class="imgcontainer">
-            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-        </div>
-
-        <div class="container" style="max-width: 720px">
-            <label for="name"><b>Username</b></label>
-            <input type="text" placeholder="Enter Username" name="name" required>
-            <label for="email"><b>Email Id</b></label>
-            <input type="email" placeholder="Enter Email Id" name="email" required>
-            <label for="comment">Comment:</label>
-            <textarea class="form-control" placeholder="Whats Up" rows="5" id="comment"></textarea>
-            <br>
-            <button type="submit" class="btn btn-default" style="text-align: center">Submit</button>
-        </div>
-
-
-    </form>
-</div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="assets/js/aditya.js"></script>
-</body>
-</html>
+<?php
+  require 'footer.php';
+?>
