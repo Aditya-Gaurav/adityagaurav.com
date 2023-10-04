@@ -63,8 +63,6 @@ body, html {
   background: url("../images/banner@1x.jpg");
   background-size: cover; }
 
-#wrapper {
-  display: none; }
 
 #divCaption {
   position: absolute;
